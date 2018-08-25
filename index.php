@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="./src/css/bootstrap.min.css">
         <link rel="stylesheet" href="./src/css/pe7-icon.css">
         <link rel="stylesheet" href="./src/fa/css/font-awesome.min.css">
-
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">  
     </head>
     <body>
         <!-- navbar -->
@@ -48,10 +48,12 @@
        setInterval(()=>{
        	   $('#delta').load("staticDB.io");
        	      var data = document.getElementById("delta").innerHTML;
+              if(data){
        	      if(offset != data){
        	         parse(data);
        	      }
              offset = data;
+         }
        },200);
 
     function parse(data){
