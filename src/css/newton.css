@@ -1,0 +1,44 @@
+ body {
+   	background-image: url("../img/bg1.png");
+   	margin: 0px;
+	padding: 0px;
+    background-repeat: no-repeat;	
+	background-size: cover;   
+    background-position: center;
+    height: 100vh;
+ }
+
+.login-newton {
+	width: 400px;height :400px;margin-top: 125px;
+	background-color: rgba(0,0,0,0.6); 
+	transition: 0.5s;
+	border-radius: 10px;
+	z-index: -9999;
+}
+
+.login-newton:hover {
+	background-color: rgba(0,0,0,0.5); 
+	transition: 0.5s;
+}
+
+.input-n {
+	width: 250px;
+    background-color: rgba(0,0,0,0.2);
+    transition: 0.5s;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.input-n:focus {
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	width: 300px;
+	transition: 0.5s;
+}
+
+#image {
+	height:125px;
+	width:350px;
+	margin:15px;
+	margin-left: 20px;
+}
