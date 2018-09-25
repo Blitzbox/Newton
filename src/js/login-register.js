@@ -47,6 +47,17 @@ function openRegisterModal(){
 }
 
 function loginAjax(){
+    var email = document.getElementById('email');
+            if(email = "student"){
+                localStorage.email = email.value;
+                window.location = "student.php";
+            }else if(email = "prof"){
+                localStorage.email = email.value;
+                window.location = "prof.php";
+            }
+            else{
+                alert("Put you name first!");
+            }
     /*   Remove this comments when moving to server
     $.post( "/login", function( data ) {
             if(data == 1){

@@ -3,28 +3,29 @@
 <head>
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name=viewport' />
 	<title>Newton</title>
+    <link rel="icon" href="./src/img/atom.gif">
 	<link rel="stylesheet" type="text/css" href="./src/css/w3.css">
     <link rel="stylesheet" type="text/css" href="./src/css/newton.css">
-	<link rel="stylesheet" type="text/css" href="./src/login-register-modal/bootstrap3/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="./src/login-register-modal/login-register.css">
-    <link rel="stylesheet" type="text/css" href="./src/login-register-modal/bootstrap3/css/font-awesome.css">
-	<link rel="icon" href="./src/img/atom.gif">
-    <script src="./src/login-register-modal/jquery/jquery-1.10.2.js" type="text/javascript"></script>
-    <script src="./src/login-register-modal/bootstrap3/js/bootstrap.js" type="text/javascript"></script>
-    <script src="./src/login-register-modal/login-register.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="./src/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/login-register.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/animate.css">
+    <script src="./src/js/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="./src/js/bootstrap.js" type="text/javascript"></script>
+    <script src="./src/js/login-register.js" type="text/javascript"></script>
 </head>
 <body>       
     <div class="login fade" id="loginModal">
-            <div class="modal-dialog login animated">
+            <div class="modal-dialog login animated" id="loginModalBox">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Login with</h4>
+                        <h4 class="modal-title">Login</h4>
                     </div>
                     <div class="modal-body">  
                         <div class="box">
                              <div class="content">
-                                <div class="social">
+                                <!-- <div class="social">
                                     <a class="circle github" href="/auth/github">
                                         <i class="fa fa-github fa-fw"></i>
                                     </a>
@@ -34,7 +35,7 @@
                                     <a id="facebook_login" class="circle facebook" href="/auth/facebook">
                                         <i class="fa fa-facebook fa-fw"></i>
                                     </a>
-                                </div>
+                                </div> -->
                                 <div class="division">
                                     <div class="line l"></div>
                                       <span>or</span>
@@ -78,7 +79,7 @@
             </div>
         </div>
 	<center>   
-		<div class="w3-container w3-round-big w3-card-4 login-newton">
+		<div class="w3-container w3-round-big w3-card-4 login-newton animated bounce delay-10s">
 		<img src="./src/img/newton-logo.png" id="image" class="logo" >
 		<p class="w3-text-white">A Digital Learning Module System || OpenProject 01 </p>
 		<a class="w3-btn w3-blue w3-round btn-lg w3-hover-green" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Log in</a>
