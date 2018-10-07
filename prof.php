@@ -3,6 +3,8 @@
 ?>
 <html>
     <head>
+        <title>Newton : Professor Dashboard</title>
+        <link rel="icon" href="./src/img/atom.gif">
         <link rel="stylesheet" href="./src/css/w3.css">
         <link rel="stylesheet" href="./src/css/bootstrap.min.css">
         <link rel="stylesheet" href="./src/css/pe7-icon.css">
@@ -12,10 +14,11 @@
     <body>
         <!-- navbar -->
         <div class="w3-top">
-        	<div class="w3-bar w3-indigo w3-text-white w3-card-2">
-        		<h3 class="w3-bar-item"><i class="pe-7s-science"></i>  Newton</h3>
+        	<div class="w3-bar w3-gray w3-text-white w3-card-2">
+        		<!-- <h3 class="w3-bar-item"><i class="pe-7s-science"></i>  Newton</h3> -->
+            <img src="./src/img/newton-logo.png" id="image" class="logo animated fadeInUp delay-1s" style="height: 100px;width: 300px;padding-top: 10px; padding-bottom: 10px;" >
         		    <div class="w3-right" style="padding-top:17px;padding-bottom:10px;">
-        		    	<h4 class="w3-bar-item w3-hide-small"><i class="pe-7s-user"></i> Professors Portal</h4>
+        		    	<h4 class="w3-bar-item w3-hide-small w3-text-black"><i class="pe-7s-user"></i> Professors Portal</h4>
         		    	<h4 class="w3-bar-item w3-hide-medium w3-hide-large" style="font-size: 30px;padding-top: 0px;"><i class="pe-7s-edit"></i></h4>
 
         		    </div>
@@ -40,7 +43,7 @@
                    <br>
                    <br>
                    <br>
-                   <button type="submit" class="w3-btn w3-indigo w3-btn-large w3-round"> Send!</button>
+                   <button type="submit" class="w3-btn w3-green w3-btn-large w3-round"> Send!</button>
                </form>
            </center>
             

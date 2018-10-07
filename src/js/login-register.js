@@ -12,7 +12,7 @@ function showRegisterForm(){
         $('.login-footer').fadeOut('fast',function(){
             $('.register-footer').fadeIn('fast');
         });
-        $('.modal-title').html('Register with');
+        $('.modal-title').html('Register');
     }); 
     $('.error').removeClass('alert alert-danger').html('');
        
@@ -23,8 +23,7 @@ function showLoginForm(){
         $('.register-footer').fadeOut('fast',function(){
             $('.login-footer').fadeIn('fast');    
         });
-        
-        $('.modal-title').html('Login with');
+        $('.modal-title').html('Login');
     });       
      $('.error').removeClass('alert alert-danger').html(''); 
 }
@@ -49,11 +48,7 @@ function openRegisterModal(){
 function loginAjax(){
     var email = document.getElementById('email');
             if(email = "student"){
-                localStorage.email = email.value;
                 window.location = "student.php";
-            }else if(email = "prof"){
-                localStorage.email = email.value;
-                window.location = "prof.php";
             }
             else{
                 alert("Put you name first!");

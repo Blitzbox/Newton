@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,19 +16,47 @@
     <script src="./src/js/jquery-1.10.2.js" type="text/javascript"></script>
     <script src="./src/js/bootstrap.js" type="text/javascript"></script>
     <script src="./src/js/login-register.js" type="text/javascript"></script>
+    <script src="./src/js/newton.js" type="text/javascript"></script>
 </head>
-<body>       
-    <div class="login fade" id="loginModal">
-            <div class="modal-dialog login animated" id="loginModalBox">
+<body> 
+    <div class="logoLeft">
+        <div class="w3-container w3-round-big w3-card-4 logo-newton animated bounceInLeft">
+            <img src="./src/img/newton-logo.png" id="imageNewton" class="logoNewton">
+                <div class="divisionLogo">
+                <p class="w3-text-white w3-center">Digital Learning Management System</p>
+                <p class="w3-text-white w3-center">for Students and Professors</p>
+                <p class="w3-text-white w3-center" id="logotext">SAD Project v.01 || BT-IT 4A</p>
+                </div>
+        </div>
+    </div>
+    <div class="loginRight">
+        <div class="w3-container w3-card-4 login-newton animated bounceInRight">
+            <div class="loginContent">
+                <div class="loginHeader w3-panel">
+                    <h2 class="loginTitle w3-text-black w3-center w3-grey w3-round">Login</h2> 
+                </div>
+                    <input id="user" class="w3-input w3-round w3-border w3-center input-n" placeholder="Username:" required>
+                    <input id="pass" type="password" class="w3-input w3-round w3-border w3-center input-p" placeholder="Password:" required> 
+                    <a class="w3-text-white w3-btn w3-indigo w3-round w3-hover-light-green button" id="loginButton"onclick="register();"><i class="fa fa-lock logoBtn"></i>Login</a>
+                    <a class="w3-text-white w3-btn w3-indigo w3-round w3-hover-light-green button" id="registerButton" onclick="register();"><i class="fa fa-check-square logoBtn"></i>Register</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+        
+
+
+    <!-- <div class="login fade" id="loginModal">
+            <div class="modal-dialog login animated">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Login</h4>
+                        <h4 class="modal-title w3-text-blue"></h4>
                     </div>
                     <div class="modal-body">  
                         <div class="box">
                              <div class="content">
-                                <!-- <div class="social">
+                                <div class="social">
                                     <a class="circle github" href="/auth/github">
                                         <i class="fa fa-github fa-fw"></i>
                                     </a>
@@ -35,10 +66,10 @@
                                     <a id="facebook_login" class="circle facebook" href="/auth/facebook">
                                         <i class="fa fa-facebook fa-fw"></i>
                                     </a>
-                                </div> -->
+                                </div>
                                 <div class="division">
                                     <div class="line l"></div>
-                                      <span>or</span>
+                                      <span></span>
                                     <div class="line r"></div>
                                 </div>
                                 <div class="error"></div>
@@ -77,14 +108,17 @@
                     </div>        
                 </div>
             </div>
-        </div>
+        </div> -->
+    <!-- <div class="frontpage">        
 	<center>   
-		<div class="w3-container w3-round-big w3-card-4 login-newton animated bounce delay-10s">
-		<img src="./src/img/newton-logo.png" id="image" class="logo" >
-		<p class="w3-text-white">A Digital Learning Module System || OpenProject 01 </p>
-		<a class="w3-btn w3-blue w3-round btn-lg w3-hover-green" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Log in</a>
-        <a class="w3-btn w3-blue w3-round btn-lg w3-hover-green" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">Register</a>
+		<div class="w3-container w3-round-big w3-card-4 login-newton animated zoomInUp delay-10s">
+		<img src="./src/img/newton-logo.png" id="image" class="logo animated fadeInUp delay-1s" >
+		<p class="w3-text-white animated fadeInUp delay-1s">A Digital Learning Manamgement System || v.01 </p>
+        <br>
+		<a class="w3-btn w3-blue w3-round w3-hover-green" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Log in</a>
+        <a class="w3-btn w3-blue w3-round w3-hover-green" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">Register</a>
         </div>
     </center>
+    </div> -->
 </body>
 </html>

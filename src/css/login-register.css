@@ -76,12 +76,15 @@
 
 #loginModal{
     display: none;
+    background-color: rgba(0,0,0,0.5); 
 }
 
 .login .modal-dialog{
     width: 420px;
     position: absolute;
     margin-left: 550px;
+    background-color: rgba(0,0,0,0.5); 
+
 }
 .login .modal-footer{
     border-top: 0;
@@ -94,7 +97,7 @@
 /*     padding: 11px 15px; */
 }
 .login .modal-body{
-/*     background-color: #eeeeee; */
+     background-color: #eeeeee; 
 }
 .login .division {
     float: none;
@@ -202,7 +205,6 @@
     padding: 13px 12px;
     width: 100%;
 }
-
 
 @media (max-width:400px){
     .login .modal-dialog{

@@ -1,24 +1,54 @@
- body {
+body {
    	background-image: url("../img/bg1.png");
    	margin: 0px;
 	padding: 0px;
     background-repeat: no-repeat;	
-	background-size: cover;   
+	background-size: 100%;   
     background-position: center;
     height: 100vh;
  }
 
-.login-newton {
-	width: 400px;height :400px;margin-top: 125px;
-	background-color: rgba(0,0,0,0.6); 
-	transition: 0.5s;
+div.logo-newton {
+	width: 400px;
+	height: 375px;
+	margin-top: 200px;
+	margin-left: 250px;
+	background-color: rgba(0,0,0,0.6);
 	border-radius: 10px;
-	z-index: -9999;
+	float: left;
+	animation-duration: 3s;
+}
+
+.logo-newton:hover {
+	background-color: rgba(0,0,0,0.5); 
+	transition: 0.75s;
+}
+
+#imageNewton {
+	height: 125px;
+	width: 350px;
+	margin: 50px;
+	margin-left: 20px;
+}
+
+#logotext {
+	margin-top: 70px;
+}
+
+div.login-newton {
+	width: 400px;
+	height :375px;
+	margin-top: 200px;
+	margin-right: 250px;
+	background-color: rgba(0,0,0,0.6); 
+	border-radius: 10px;
+	float: right;
+	animation-duration: 3s;
 }
 
 .login-newton:hover {
 	background-color: rgba(0,0,0,0.5); 
-	transition: 0.5s;
+	transition: 0.75s;
 }
 
 .input-n {
@@ -26,7 +56,19 @@
     background-color: rgba(0,0,0,0.2);
     transition: 0.5s;
     color: #fff;
-    margin-bottom: 10px;
+    margin: auto;
+    /*margin-left: 10px;*/
+    margin-bottom: 20px;
+}
+
+.input-p {
+	width: 250px;
+    background-color: rgba(0,0,0,0.2);
+    transition: 0.5s;
+    color: #fff;
+    margin: auto;
+    /*margin-left: 10px;*/
+    margin-bottom: 30px;
 }
 
 .input-n:focus {
@@ -36,9 +78,33 @@
 	transition: 0.5s;
 }
 
-#image {
-	height:125px;
-	width:350px;
-	margin:15px;
-	margin-left: 20px;
+.input-p:focus {
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	width: 300px;
+	transition: 0.5s;
+}
+
+.loginTitle {
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.loginHeader {
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.button {
+	margin-left: 25px;
+	width: 30%;
+}
+
+#loginButton {
+	margin-left: 60px;
+}
+
+.logoBtn {
+	margin-right: 5px;
 }
