@@ -1,31 +1,42 @@
 body {
-   	background-image: url("../img/bg1.png");
+	margin: 0px;
+	padding: 0px;
+	background: linear-gradient(to right, rgba(255,255,255,0.3), rgba(0,0,0,0.8)), url("../img/bg2.png");
+	background-size: cover;
+	min-height: 100vh;
+	/*height: 100%;
+  	width: 100%;
+    background: linear-gradient(to right, rgba(255,255,255,0.3), rgba(0,0,0,0.8)) fixed center center;   
+    background-size: cover;
+    position: fixed;
+	background-image: url("../img/bg2.png");
    	margin: 0px;
 	padding: 0px;
     background-repeat: no-repeat;	
 	background-size: 100%;   
     background-position: center;
-    height: 100vh;
+    height: 100vh;*/
+
  }
 
 div.logo-newton {
 	width: 400px;
 	height: 375px;
-	margin-top: 200px;
+	margin-top: 150px;
 	margin-left: 250px;
-	background-color: rgba(0,0,0,0.6);
+	background-color: rgba(255,255,255,0.3);
 	border-radius: 10px;
 	float: left;
 	animation-duration: 3s;
 }
 
 .logo-newton:hover {
-	background-color: rgba(0,0,0,0.5); 
+	background-color: rgba(255,255,255,0.8); 
 	transition: 0.75s;
 }
 
 #imageNewton {
-	height: 125px;
+	height: 100px;
 	width: 350px;
 	margin: 50px;
 	margin-left: 20px;
@@ -38,7 +49,7 @@ div.logo-newton {
 div.login-newton {
 	width: 400px;
 	height :375px;
-	margin-top: 200px;
+	margin-top: 150px;
 	margin-right: 250px;
 	background-color: rgba(0,0,0,0.6); 
 	border-radius: 10px;
@@ -57,7 +68,7 @@ div.login-newton {
     transition: 0.5s;
     color: #fff;
     margin: auto;
-    /*margin-left: 10px;*/
+    /*margin-left: 10px;
     margin-bottom: 20px;
 }
 

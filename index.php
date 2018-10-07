@@ -6,9 +6,9 @@
 <head>
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name=viewport' />
 	<title>Newton</title>
-    <link rel="icon" href="./src/img/atom.gif">
+    <link rel="icon" href="./src/img/newton-icon.png">
 	<link rel="stylesheet" type="text/css" href="./src/css/w3.css">
-    <link rel="stylesheet" type="text/css" href="./src/css/newton.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/login-n.css">
 	<link rel="stylesheet" type="text/css" href="./src/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="./src/css/login-register.css">
     <link rel="stylesheet" type="text/css" href="./src/css/font-awesome.css">
@@ -19,13 +19,14 @@
     <script src="./src/js/newton.js" type="text/javascript"></script>
 </head>
 <body> 
+    </div>
     <div class="logoLeft">
-        <div class="w3-container w3-round-big w3-card-4 logo-newton animated bounceInLeft">
+        <div class="w3-container-white w3-round-big w3-card-4 logo-newton animated bounceInLeft">
             <img src="./src/img/newton-logo.png" id="imageNewton" class="logoNewton">
                 <div class="divisionLogo">
-                <p class="w3-text-white w3-center">Digital Learning Management System</p>
-                <p class="w3-text-white w3-center">for Students and Professors</p>
-                <p class="w3-text-white w3-center" id="logotext">SAD Project v.01 || BT-IT 4A</p>
+                <p class="w3-text-black w3-center">Digital Learning Management System</p>
+                <p class="w3-text-black w3-center">for Students and Professors</p>
+                <p class="w3-text-black w3-center" id="logotext">SAD Project v.01 || BT-IT 4A</p>
                 </div>
         </div>
     </div>
