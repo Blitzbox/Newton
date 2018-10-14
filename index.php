@@ -7,15 +7,13 @@
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name=viewport' />
 	<title>Newton</title>
     <link rel="icon" href="./src/img/newton-icon.png">
+    <link rel="stylesheet" type="text/css" href="./src/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./src/css/w3.css">
     <link rel="stylesheet" type="text/css" href="./src/css/login-n.css">
-	<link rel="stylesheet" type="text/css" href="./src/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="./src/css/login-register.css">
     <link rel="stylesheet" type="text/css" href="./src/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="./src/css/animate.css">
     <script src="./src/js/jquery-1.10.2.js" type="text/javascript"></script>
     <script src="./src/js/bootstrap.js" type="text/javascript"></script>
-    <script src="./src/js/login-register.js" type="text/javascript"></script>
     <script src="./src/js/newton.js" type="text/javascript"></script>
 </head>
 <body> 
@@ -38,7 +36,7 @@
                 </div>
                     <input id="user" class="w3-input w3-round w3-border w3-center input-n" placeholder="Username:" required>
                     <input id="pass" type="password" class="w3-input w3-round w3-border w3-center input-p" placeholder="Password:" required> 
-                    <a class="w3-text-white w3-btn w3-indigo w3-round w3-hover-light-green button" id="loginButton"onclick="register();"><i class="fa fa-lock logoBtn"></i>Login</a>
+                    <a class="w3-text-white w3-btn w3-indigo w3-round w3-hover-light-green button" id="loginButton" onclick="register();"><i class="fa fa-lock logoBtn"></i>Login</a> 
                     <a class="w3-text-white w3-btn w3-indigo w3-round w3-hover-light-green button" id="registerButton" onclick="register();"><i class="fa fa-check-square logoBtn"></i>Register</a>
                 </div> 
             </div>
