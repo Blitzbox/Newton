@@ -54,9 +54,9 @@
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="javascript:void(0)">
+            <a class="nav-link" href="http://quizstar.4teachers.org/" target="_blank">
               <i class="fa fa-exclamation-circle"></i>
-              <p>Under Progress</p>
+              <p>QuizStar</p>
             </a>
           </li>
         </ul>
