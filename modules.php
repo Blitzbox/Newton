@@ -75,8 +75,27 @@
       
           <div class="row">
 
-    <h1>Modules Baby</h1>        
-    
+<!-- modules app-->
+              <div class="container p-2 bg-dark">
+                  <h3 class="px-2 text-white"><i class="fa fa-file-alt"></i> Create New Module</h3>
+                  <hr>
+                  
+                  <form class="p-3">
+                      <input type="text" placeholder="Module Name" class="form-control p-3" required>
+                      <textarea rows="10" class="p-3 form-control" placeholder="Description / Directions" name="directions" required></textarea>
+                      <input type="file" class="btn btn-info py-2 mt-5">
+                      
+                        <center>
+                    <button class="btn btn-info mt-5" type="submit"><i class="fa fa-check mr-2"></i> Publish Module</button>
+                  </center>
+                  </form>
+                  
+                
+                   
+              </div>
+
+              <!-- modules app-->
+
           </div>
         </div>
       </div>

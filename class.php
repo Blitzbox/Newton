@@ -75,8 +75,63 @@
       
           <div class="row">
 
-    <h1>Class it baby</h1>        
-    
+              
+<!-- student list portion -->
+              <div class="row mx-2 bg-dark p-2 rounded">
+                  
+                   <div class="col-md-14">
+                       <a class="small text-warning"><i class="fa fa-circle mr-2"></i>Current Section:</a>
+                       <input class="form-control" name="section" placeholder="section">
+                  </div>
+                  <div class="col-sm-4">
+                       <button class="btn btn-info mt-3"><i class="fa fa-list mr-2"></i> List Students</button>
+                  </div>
+              </div>
+              
+              <div class="card">
+                <div class="card-header card-header-warning">
+                  <h4 class="card-title"><i class="fa fa-home"></i> List of Classes</h4>
+                  <p class="card-category">Current Class: BT-IT 4A</p>
+                </div>
+                <div class="card-body table-responsive">
+                  <table class="table table-hover">
+                    <thead class="text-warning">
+                      <th>ID</th>
+                      <th>Name</th>
+                      <th>Salary</th>
+                      <th>Country</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Dakota Rice</td>
+                        <td>$36,738</td>
+                        <td>Niger</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Minerva Hooper</td>
+                        <td>$23,789</td>
+                        <td>Curaçao</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Sage Rodriguez</td>
+                        <td>$56,142</td>
+                        <td>Netherlands</td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Philip Chaney</td>
+                        <td>$38,735</td>
+                        <td>Korea, South</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+<!-- end of student app              -->
+                
           </div>
         </div>
       </div>

@@ -75,7 +75,27 @@
       
           <div class="row">
 
-    <h1> Events baby</h1>        
+<!--         creatre an event        -->
+          <div class="container p-2 bg-dark">
+                  <h3 class="px-2 text-white"><i class="fa fa-calendar"></i> Create Event</h3>
+                  <hr>
+                  
+                  <form class="p-3">
+                      <textarea rows="5" class="p-3 form-control" placeholder="Description / Directions" name="descript" required></textarea>
+<!--                      <input type="file" class="btn btn-info py-2 mt-5">-->
+                      
+                        <center>
+                    <button class="btn btn-info mt-5" type="submit"><i class="fa fa-check mr-2"></i> Publish Module</button>
+                  </center>
+                  </form>
+                  
+                
+                   
+              </div>
+
+
+              
+<!--              end of creating an event-->
     
           </div>
         </div>

@@ -98,7 +98,7 @@
                   <div class="card-icon">
                     <i class="fa fa-upload"></i>
                   </div>
-                  <p class="card-category">New Submissions</p>
+                  <p class="card-category">Submissions</p>
                   <h3 class="card-title" id="scount">0</h3>
                 </div>
                 <div class="card-footer">
